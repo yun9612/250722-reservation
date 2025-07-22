@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숙소 예약 포맷</title>
+    <link rel="stylesheet" href="css/rp.css" />
+  </head>
+  <body>
+    <!-- 전체 레이아웃 -->
+    <div class="wrap">
+      <!-- 메뉴 -->
+      <nav class="navi">
+        <ul>
+          <li><a href="index.html#intro">이용 안내</a></li>
+          <li><a href="index.html#room">객실 소개</a></li>
+          <li><a href="index.html#reservation">예약 방법 및 요금</a></li>
+          <li><a href="rp.html" target="_blank">예약하기</a></li>
+        </ul>
+      </nav>
+      <!-- 개인정보 -->
+      <form id="signUp">
+        <fieldset>
+          <legend>개인정보</legend>
+          <ul class="user">
+            <li>
+              <label for="userName">이름</label>
+              <input type="text" id="userName" />
+            </li>
+            <li>
+              <label for="userTel">연락처</label>
+              <input type="tel" id="userTel" />
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>객실 형태</legend>
+          <ul class="room">
+            <li>
+              <input type="radio" id="normalR" name="roomStyle" />
+              <label for="normalR">기본형(최대 2인)</label>
+            </li>
+            <li>
+              <input type="radio" id="familyR" name="roomStyle" />
+              <label for="familyR">가족형(최대 4인)</label>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
