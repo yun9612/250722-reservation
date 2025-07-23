@@ -1,46 +1,6 @@
 @charset "utf-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-ul,
-li {
-  list-style: none;
-}
-a {
-  color: #333;
-  text-decoration: none;
-}
-.wrap {
-  width: 960px;
-  margin: auto;
-  /* background-color: aliceblue; */
-}
-.navi {
-  padding: 10px 0;
-  border-bottom: 1px solid #333;
-}
-.navi ul {
-  display: flex;
-  width: 700px;
-  background-color: cadetblue;
-  margin: auto;
-}
-.navi ul li {
-  width: calc(100% / 4);
-  text-align: center;
-}
-.navi ul li a {
-  padding: 20px 0;
-  display: block;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 500;
-}
-.navi ul li a:hover {
-  background-color: rgb(84, 139, 141);
-}
+/* 다른 css에 있는 코드를 공유함 */
+@import url("main.css");
 #signUp {
   width: 400px;
   margin: 50px auto;
