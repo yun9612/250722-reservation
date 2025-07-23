@@ -23,9 +23,10 @@ a {
 }
 .navi ul {
   display: flex;
-  width: 700px;
+  width: 800px;
   background-color: cadetblue;
   margin: auto;
+  border-radius: 8px;
 }
 .navi ul li {
   width: calc(100% / 4);
@@ -40,6 +41,7 @@ a {
 }
 .navi ul li a:hover {
   background-color: rgb(84, 139, 141);
+  border-radius: 8px;
 }
 .container {
   display: flex;
@@ -55,12 +57,12 @@ a {
   padding: 20px;
   border: 1px solid #333;
 }
-#intro:target{
-    background-color: cornsilk;
+#intro:target {
+  background-color: cornsilk;
 }
-#room:target{
-    background-color: rgb(255, 226, 231);
+#room:target {
+  background-color: rgb(255, 226, 231);
 }
-#reservation:target{
-    background-color: rgb(198, 239, 255);
+#reservation:target {
+  background-color: rgb(198, 239, 255);
 }

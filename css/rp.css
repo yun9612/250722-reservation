@@ -11,9 +11,12 @@
 fieldset {
   padding: 30px;
   border: 1px solid #bebebe;
+  border-radius: 8px;
 }
 legend {
   padding: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .user,
 .room {
@@ -31,7 +34,10 @@ button {
   background-color: cadetblue;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 200px;
+  margin: auto;
 }
 button:hover {
   background-color: rgb(84, 139, 141);
