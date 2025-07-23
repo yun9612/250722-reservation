@@ -65,3 +65,15 @@ legend {
   width: 60px;
   display: inline-block;
 }
+button {
+  line-height: 50px;
+  font-size: 20px;
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(84, 139, 141);
+  cursor: pointer;
+}
